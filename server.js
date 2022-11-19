@@ -78,7 +78,7 @@ app.post('/razorpay', async (req, res) => {
 })
 
 // DB config
-const db = require('./config/keys').mongoURI;
+// const db = require('./config/keys').mongoURI;
 
 // connect to MongoDB;
 mongoose
