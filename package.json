@@ -1,16 +1,13 @@
 {
   "name": "doctor_connector",
   "version": "1.0.0",
-  "description": "By Jeevan Jyoti Dash",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "client": "npm start --prefix client"
   },
-  "author": "JeevanTheDev",
+  "author": "SG",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
